@@ -1,4 +1,41 @@
-@media (min-width: 1200px)
-.col-lg-3 {
-    width: 25%;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    font-family: Tahoma,sans-serif;
+}
+a:hover{
+    background: rgba(247, 247, 247, 0.1);
+}
+a{
+    color: white;
+
+}
+
+.navbar{
+    height: 70px;
+}
+#responsive-menu{
+    margin-top: 10px;
+}
+
+.banner{
+    background: url("image/banner.jpg")10% 10%;
+    background-size: cover;
+    height: 640px;
+}
+.ban{
+    height: 600px;
+    background: rgba(8, 8, 8, 0.5);
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.color-navbar{
+    background: rgba(8, 8, 8, 0.8);
 }
