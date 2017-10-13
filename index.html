@@ -18,7 +18,7 @@
     <div class="container-fluid banner">
         <div class="row">
             <div class="container-fluid ban">
-                <div class="navbar navbar color-navbar">
+                <div class="navbar navbar-inverse">
                     <div class="container">
                         <div class="navbar-header">
                             <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
@@ -37,6 +37,31 @@
                     </div>
                 </div>
             </div>
+            <div class="name">
+                <h1 class = "font-name">Name your company</h1>
+            </div>
+          <!--  <button class = "log-in-prew" id="log-in-prew" onclick="add()">
+                <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+            </button>-->
+
+          <div id="log-in" class="row">
+
+                  <div class="col-md-4">
+                      <button onclick="come();return false" id = "but">
+                          <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+                      </button>
+                  </div>
+                  <div class="col-md-8">
+                      <form>
+                          <input type="text" placeholder="Enter your login" id="login"><br>
+                          <input type="password" placeholder="Enter your password" id="password"><br>
+                          <button id = "sign-in">Sign in</button>
+                          <button id = "register">Register</button>
+                      </form>
+                  </div>
+
+          </div>
+
         </div>
     </div>
     <div class="container-fluid">
@@ -45,8 +70,28 @@
         </div>
     </div>
         
-        
-                
+    <script>
+        function come(){
+            document.getElementById('log-in').style.marginRight = "0px";
+            var but = document.getElementById("but").value;
+            
+        }
+
+
+
+        function back() {
+            var html = ' <div id = "log-in"></div>';
+            return html;
+        }
+
+
+
+
+        function add() {
+            document.getElementById('log-in').innerHTML=formLogin()
+        }
+
+    </script>
 
 
 

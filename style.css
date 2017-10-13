@@ -6,12 +6,39 @@
 li{
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
+    height: 70px;
     font-size: 16px;
-    font-family: Tahoma,sans-serif;
+    font-family: "Courier New",sans-serif;
+    margin-top: -10px;
 }
-a:hover{
-    background: rgba(247, 247, 247, 0.1);
+
+ul{
+    height: 70px;
 }
+
+
+.navbar-inverse {
+    background: rgba(8, 8, 8, 0.8);
+    border: none;
+}
+
+.navbar-toggle{
+    border-color:#4e4a4a;
+}
+
+.navbar-toggle:hover{
+    border-color:#a5a1a1;
+    background:red;
+}
+
+i{
+    color: #4e4a4a;
+}
+li:hover{
+    background: rgba(8, 8, 8, 0.9);
+}
+
 a{
     color: white;
 
@@ -30,12 +57,64 @@ a{
     height: 640px;
 }
 .ban{
-    height: 600px;
+    height: 640px;
     background: rgba(8, 8, 8, 0.5);
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.color-navbar{
-    background: rgba(8, 8, 8, 0.8);
+
+.name{
+    position: relative;
+    height:60px;
+    text-align: right;
+    color: white;
+    margin-top: -625px;
+    -webkit-clip-path: polygon(90% 0, 0 56%, 100% 100%);
+    clip-path: polygon(90% 0, 0 56%, 100% 100%);
+    background: black;
+
+}
+
+.font-name{
+    padding-top:11px ;
+    padding-right: 110px;
+    font-family: "Courier New",sans-serif;
+    font-size: 35px;
+}
+
+.log-in-prew{
+    position: relative;
+    float: right;
+    display: block;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 70px;
+    height: 200px;
+    background: black;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+#log-in{
+    padding: 20px;
+    height: 200px;
+    float: right;
+    background: black;
+    position: relative;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-right: -290px;
+}
+
+input{
+    width: 240px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 118px;
+    margin-top: 20px;
 }
